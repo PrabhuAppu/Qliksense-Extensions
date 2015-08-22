@@ -1,0 +1,198 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,700);
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../extensions/Qlikview-Container/fonts/codropsicons/codropsicons.eot');
+	src:url('../extensions/Qlikview-Container/fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../extensions/Qlikview-Container/fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../extensions/Qlikview-Container/fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../extensions/Qlikview-Container/fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+.qv-object-Qlikview-Container  *, .qv-object-Qlikview-Container  *:after, .qv-object-Qlikview-Container  *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.qv-object-Qlikview-Container  .clearfix:before, .qv-object-Qlikview-Container  .clearfix:after { content: ''; display: table; }
+.qv-object-Qlikview-Container  .clearfix:after { clear: both; }
+
+.qv-object-Qlikview-Container  {
+	background: #e7ecea;
+	color: #74777b;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.qv-object-Qlikview-Container a {
+	color: #2CC185;
+	text-decoration: none;
+	outline: none;
+}
+
+.qv-object-Qlikview-Container  a:hover, .qv-object-Qlikview-Container  a:focus {
+	color: #74777b;
+}
+
+.qv-object-Qlikview-Container  .support {
+	display: none;
+	color: #ef5189;
+	text-align: left;
+	font-size: 1.5em;
+	max-width: 1200px;
+	margin: 1em auto 0;
+	padding: 0;
+}
+
+.qv-object-Qlikview-Container  .no-flexbox .support {
+	display: block;
+}
+
+.qv-object-Qlikview-Container  .hidden {
+	position: absolute;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	opacity: 0;
+}
+
+.qv-object-Qlikview-Container  .container > section {
+	padding: 5em 0;
+	font-size: 1.25em;
+	min-height: 100%;
+}
+
+.qv-object-Qlikview-Container  p {
+	text-align: center;
+	padding: 1em;
+}
+
+/* Header */
+.qv-object-Qlikview-Container  .codrops-header {
+	padding: 7em 0 3em;
+	letter-spacing: -1px;
+}
+
+.qv-object-Qlikview-Container  .codrops-header h1 {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-weight: 800;
+	font-size: 5em;
+	line-height: 1;
+}
+
+.qv-object-Qlikview-Container  .codrops-header h1 span {
+	display: block;
+	font-size: 50%;
+	font-weight: 400;
+	padding-top: 0.325em;
+	color: #bdc2c9;
+}
+
+/* To Navigation Style */
+.qv-object-Qlikview-Container  .codrops-top {
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.69em;
+	line-height: 2.2;
+}
+
+.qv-object-Qlikview-Container  .codrops-top a {
+	display: inline-block;
+	padding: 1em 2em;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.qv-object-Qlikview-Container  .codrops-top span.right {
+	float: right;
+}
+
+.qv-object-Qlikview-Container  .codrops-top span.right a {
+	display: block;
+	float: left;
+}
+
+.qv-object-Qlikview-Container  .codrops-icon:before {
+	margin: 0 4px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'codropsicons';
+	line-height: 1;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.qv-object-Qlikview-Container  .codrops-icon-drop:before {
+	content: "\e001";
+}
+
+.qv-object-Qlikview-Container  .codrops-icon-prev:before {
+	content: "\e004";
+}
+
+/* Related demos */
+.qv-object-Qlikview-Container  .related {
+	text-align: center;
+}
+
+.qv-object-Qlikview-Container  .related > a {
+	width: calc(100% - 20px);
+	max-width: 340px;
+	border: 1px solid black;
+	border-color: initial;
+	display: inline-block;
+	text-align: center;
+	margin: 20px 10px;
+	padding: 25px;
+}
+
+.qv-object-Qlikview-Container  .related a img {
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.qv-object-Qlikview-Container  .related a:hover img,
+.qv-object-Qlikview-Container  .related a:active img {
+	opacity: 1;
+}
+
+.qv-object-Qlikview-Container  .related a h3 {
+	margin: 0;
+	padding: 0.5em 0 0.3em;
+	max-width: 300px;
+	text-align: left;
+}
+
+@media screen and (max-width: 1280px) {
+	.qv-object-Qlikview-Container  .codrops-header h1 {
+		padding: 0 0.5em;
+	}
+	.qv-object-Qlikview-Container  .support {
+		padding: 0 1.5em;
+	}
+}
+
+@media screen and (max-width: 30em) {
+	.qv-object-Qlikview-Container  .container > section {
+		padding: 3em 0;
+	}
+	.qv-object-Qlikview-Container  .codrops-header {
+		padding: 2em 0 1em;
+	}
+	.qv-object-Qlikview-Container  .codrops-header h1 {
+		font-size: 3.5em;
+	}
+}
+
+
+@media screen and (max-width: 25em) {
+	.qv-object-Qlikview-Container  .codrops-icon {
+		font-size: 1.5em;
+	}
+	.qv-object-Qlikview-Container  .codrops-icon span {
+		display: none;
+	}
+}
