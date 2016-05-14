@@ -1,9 +1,0 @@
-{
-	"name" : "VizContest-Gauge KPI Chart",
-	"description" : "Gauge KPI Chart",
-	"icon" : "bar-chart-vertical",
-	"type" : "visualization",
-	"version": "1.0",
-	"preview" : "bar",
-	"author": "QlikTech International AB"
-}
