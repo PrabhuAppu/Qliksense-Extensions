@@ -1,0 +1,110 @@
+.bootstrap_inside {
+   /*@import "./bootstrap.css";*/
+   /*@import "./bootstrap.css";*/
+}
+
+.domain { 
+  fill: none; 
+  stroke: rgb(186,186,186); 
+  stroke-width: 1; 
+} 
+
+#fchange,
+.qv-object-VizContest-FastChange{
+	overflow : visible;
+	z-index:9999;
+}
+
+.row {
+   margin-right: 0px; 
+   margin-left: 0px; 
+}
+
+.container-fluid{
+   padding-right: 0px; 
+   padding-left: 0px; 
+   margin-right: auto; 
+   margin-left: auto; 
+}
+
+
+.barcharts{
+	/*background-color: rgb(230,230,230);*/
+	height: 400px;
+	padding-bottom: 10px;
+	margin-left : 10px;
+	cursor : pointer;
+}
+
+.sortLabel{
+	margin-left : 10px;
+}
+
+.barcharts .axis text {
+  font: 10px sans-serif;
+}
+
+.barcharts .axis path,
+.barcharts .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.barcharts .bar {
+  fill: rgb(31, 119, 180);/*rgb(166, 0, 0);/*rgb(166, 165, 165);*/
+  fill-opacity: 1;
+}
+
+.barcharts .bar:hover{
+  fill: rgb(255, 127, 14);/*#f39c12;*/
+  fill-opacity: .9;
+  stroke : black;
+  stroke-width : 1px;
+}
+
+.barcharts .barselected{
+	fill: rgb(255, 127, 14);/*#f39c12;
+/*	stroke : black;
+  stroke-width : 1px;*/
+}
+
+.barcharts .x.axis path {
+  display: none;
+}
+
+.barcharts label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/*popover*/
+
+.barcharts .popover-title {
+  background-color: #3c3c3c;
+}
+
+.barcharts .popover {
+  color : white;
+  background-color:rgb(70,70,70);
+}
+
+.barcharts .popover.top > .arrow:after {
+   border-top-color: rgb(70,70,70);
+}
+
+.barcharts .lined{
+	stroke : red;
+	z-index : 1000;
+}
+
+.barcharts .popover .progress{
+	height: 10px;
+	position: relative;
+    opacity: 1;
+}
+
+.qv-object-VizContest-SortableBarLine{
+overflow: visible !important;
+}

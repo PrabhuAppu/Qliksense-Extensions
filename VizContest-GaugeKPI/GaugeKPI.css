@@ -1,0 +1,79 @@
+.bootstrap_inside {
+   /*@import "./bootstrap.css";*/
+   /*@import "./bootstrap.css";*/
+}
+
+.domain { 
+  fill: none; 
+  stroke: rgb(186,186,186); 
+  stroke-width: 1; 
+} 
+
+#fchange,
+.qv-object-VizContest-FastChange{
+	overflow : visible;
+	z-index:9999;
+}
+
+.kpi{
+	height: 10%;
+	
+}
+
+.kpi_text{
+	font-size: 15px;
+	line-height: 20px;
+	text-align : center;
+	font-family: segoe UI;
+	padding : 10%;
+}
+
+.icon_bg{
+width: 50px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+}
+
+.kpi_image{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding : 9px;
+}
+
+.kpi_inner{
+	
+	/*background-color: rgb(186,186,186);
+	border : solid 1px white;*/
+}
+
+.kpi_value{
+	font-size: 30px;
+	line-height: 75px;
+	text-align : center;
+	font-family: segoe UI;
+}
+
+.progress_row{
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.progress_custom, .progress_row , .progress_col{
+  height: 10px;
+  }
+  
+  .row {
+   margin-right: 0px; 
+   margin-left: 0px; 
+}
+
+.container-fluid{
+   padding-right: 0px; 
+   padding-left: 0px; 
+   margin-right: auto; 
+   margin-left: auto; 
+}
