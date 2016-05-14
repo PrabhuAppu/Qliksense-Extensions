@@ -1,0 +1,75 @@
+.bootstrap_inside {
+   /*@import "./bootstrap.css";*/
+   /*@import "./bootstrap.css";*/
+}
+
+.kpiTop{
+	/*height: 100px;
+	/*background-color: rgb(230,230,230);*/
+	padding-left : 10px;
+}
+.topDiv{
+	width : 70%;
+}
+.containerGeneral{
+  border: 1px solid #ccc;
+  border-width: 1px 1px 4px 1px;	
+  padding : 10px;
+}
+.last{
+border-width: 1px 1px 4px 1px;	
+}
+
+h4, h5{
+	font-weight : normal;
+}
+
+.kpiGeneral{
+  /*height: 100px;*/
+  /*padding-right : 10px;*/
+}
+
+.containerGeneral {
+  /*background-image: linear-gradient(to bottom, #3c3c3c 0%, #222 100%);
+  color: white;*/
+  background-image: -webkit-linear-gradient(top, #fff 0%, #f8f8f8 100%);
+  background-image: -o-linear-gradient(top, #fff 0%, #f8f8f8 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f8f8f8));
+  background-image: linear-gradient(to bottom, #fff 0%, #f8f8f8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+    background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  color: black;
+}
+
+div.text1{
+/*padding:10px*/
+}
+
+h4.text1{
+	font-size : 14px;
+	font-weight : bold;
+	font-family : Segoe UI;
+}
+
+h5.text1{
+	font-style: italic;
+	font-family : Segoe UI;
+}
+
+.row {
+   margin-right: 0px; 
+   margin-left: 0px; 
+}
+
+.container-fluid{
+   padding-right: 0px; 
+   padding-left: 0px; 
+   margin-right: auto; 
+   margin-left: auto; 
+}

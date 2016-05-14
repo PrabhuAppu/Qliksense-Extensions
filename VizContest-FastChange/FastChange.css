@@ -1,0 +1,33 @@
+.bootstrap_inside {
+   /*@import "./bootstrap.css";*/
+   /*@import "./bootstrap.css";*/
+}
+
+.domain { 
+  fill: none; 
+  stroke: rgb(186,186,186); 
+  stroke-width: 1; 
+} 
+
+#fchange,
+.qv-object-VizContest-FastChange{
+	overflow : visible;
+	z-index:9999;
+}
+
+ .row {
+   margin-right: 0px; 
+   margin-left: 0px; 
+}
+
+.container-fluid{
+   padding-right: 0px; 
+   padding-left: 0px; 
+   margin-right: auto; 
+   margin-left: auto; 
+}
+
+
+.qv-object-VizContest-FastChange{
+overflow: visible !important;
+}
