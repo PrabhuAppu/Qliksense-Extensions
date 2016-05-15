@@ -58,38 +58,9 @@
  var buttons = '<div class="QvExtensioncontainer container-fluid">'+
 				  '<div class="col-xs-12 fast_change2 text-center" id = "fchange2">'+
 					'<div class="btn-group" role="group">'+
-					  '<button type="button" class="btn btn-default previous"><img style="width: 15px;height: 15px;padding: 0px;" src="../extensions/VizContest-SortableBarLine/images/back.PNG"></img></button>'+
+					  '<button type="button" class="btn btn-default previous"><img style="width: 15px;height: 15px;padding: 0px;" src="../extensions/D3-Animated-FastChange/images/back.PNG"></img></button>'+
 					  '<button type="button" class="btn btn-default chartname active">Grouped Bar</span></button>'+
-					  '<button type="button" class="btn btn-default next"><img style="width: 15px;height: 15px;padding: 0px;" src="../extensions/VizContest-SortableBarLine/images/forward.PNG"></img></button>'+
+					  '<button type="button" class="btn btn-default next"><img style="width: 15px;height: 15px;padding: 0px;" src="../extensions/D3-Animated-FastChange/images/forward.PNG"></img></button>'+
 					'</div>'+
 				  '</div>'+
 			  '</div>';
- 
-/*
-define( [], function ( ) {
-	
-	return {
-		type: "items",
-		component: "accordion",
-		items: {
-			dimensions: {
-				uses: "dimensions",
-				min: 2,
-				max: 2
-			},
-			measures: {
-				uses: "measures",
-				min: 1,
-				max: 1
-			},
-			sorting: {
-				uses: "sorting"
-			},
-			settings: {
-				uses: "settings"
-			}
-		}
-	};
- 
-});
-*/
