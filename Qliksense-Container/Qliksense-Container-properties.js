@@ -1,7 +1,11 @@
 /**
- * @owner Erik Wetterberg (ewg)
+ * @summary Container object for Qliksense
+ * 
+ * @owner Prabhu Appu
+ * 
+ * @GitHub_Source https://github.com/PrabhuAppu/Qliksense-Extensions/tree/master/Qliksense-Container
+ *  
  */
-
 define([
 	'jquery',
 	'underscore',

@@ -1,3 +1,12 @@
+/**
+ * @summary Animated Grid Chart for Qliksense
+ * 
+ * @owner Prabhu Appu
+ * @link https://github.com/PrabhuAppu/
+ * 
+ * @GitHub_Source https://github.com/PrabhuAppu/Qliksense-Extensions/tree/master/Dimple%20Grid%20Chart
+ *  
+ */
 var myChart;
 var myStoryboard;
 

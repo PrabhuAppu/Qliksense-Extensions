@@ -1,7 +1,11 @@
 /**
- * @owner Erik Wetterberg (ewg)
+ * @summary Animated Grid Chart for Qliksense
+ * 
+ * @owner Prabhu Appu
+ * 
+ * @GitHub_Source https://github.com/PrabhuAppu/Qliksense-Extensions/tree/master/Dimple%20Grid%20Chart
+ *  
  */
- 
  define( [], function () {
 	'use strict';
 	// *****************************************************************************
@@ -88,31 +92,3 @@
 						'</div>'+
 					'</div>'+'</div>';
  
-/*
-define( [], function ( ) {
-	
-	return {
-		type: "items",
-		component: "accordion",
-		items: {
-			dimensions: {
-				uses: "dimensions",
-				min: 2,
-				max: 2
-			},
-			measures: {
-				uses: "measures",
-				min: 1,
-				max: 1
-			},
-			sorting: {
-				uses: "sorting"
-			},
-			settings: {
-				uses: "settings"
-			}
-		}
-	};
- 
-});
-*/

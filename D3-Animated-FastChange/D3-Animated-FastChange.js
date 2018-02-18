@@ -1,3 +1,11 @@
+/**
+ * @summary Animated Grid Chart for Qliksense
+ * 
+ * @owner Prabhu Appu
+ * 
+ * @GitHub_Source https://github.com/PrabhuAppu/Qliksense-Extensions/tree/master/D3-Animated-FastChange
+ *  
+ */
 define(["jquery",
 	"./D3-Animated-FastChange-properties",
 	"text!./css/bootstrap.css",
