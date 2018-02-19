@@ -1,0 +1,61 @@
+v0.0.1:
+  date: "2016-06-27"
+  new:
+    - Initial Commit
+  enhancements:
+v1.1.4:
+  date: "2017-05-05"
+  new:
+    - Default table and items
+  enhancements:
+v1.1.5:
+  date: "2017-05-08"
+  new:
+  enhancements:  
+    - Bug fix, default table undefined
+v1.1.6:
+  date: "2017-05-08"
+  new:
+  enhancements:  
+    - Bug fix, default table undefined
+v1.1.7:
+  date: "2017-05-08"
+  new:
+  enhancements:  
+    - Bug fix, default items split
+v1.1.8:
+  date: "2017-05-08"
+  new:
+  enhancements:  
+    - Bug fixes
+v1.1.9:
+  date: "2017-06-01"
+  new:
+  enhancements:  
+    - Fixed Table API export bug in 3.2 SR3 & SR4
+v1.1.10:
+  date: "2017-06-01"
+  new:
+  enhancements:  
+    - Fixed light color in table
+v1.1.11:
+  date: "2017-06-01"
+  new:
+  enhancements:  
+    - Fixed sort order in table list
+v1.1.12:
+  date: "2017-12-08"
+  new:
+  enhancements:  
+    - Export bug ADFS (not supporting 3.2 SR3 & SR4)
+v1.2.2:
+  date: "2017-12-22"
+  new:
+  enhancements:  
+    - Sort Order bug fix
+v1.2.3:
+  date: "2018-01-19"
+  new:
+  enhancements:  
+    - Context menu now works in mash ups
+    - Context menu has now items on first level
