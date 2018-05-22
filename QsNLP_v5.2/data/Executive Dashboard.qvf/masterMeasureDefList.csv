@@ -1,0 +1,33 @@
+Sum([Sales Quantity]*[Sales Price])
+Sum([Sales Quantity])
+|sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>} ExpenseActual)/sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>} ExpenseBudget)|
+|If(Sum(ExpenseActual)>0,Sum(ExpenseActual),0)|
+sum(ExpenseActual)
+Sum({<[Fiscal Year]={$(vYear)}>}ExpenseActual)/1000
+(Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen)-Sum({<[Fiscal Year]={$(vYTDYear)}>} ARCurrent))/Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen)
+Sum(StockOH*CostPrice)
+(Sum([Sales Quantity]*[Sales Price])) - (Sum([Sales Cost Amount]))
+|if( Sum ([AR60+])>0, count ( distinct [Customer Number]))|
+Sum([Sales Cost Amount])
+Sum (ARAvgBal)
+Sum (ARSalesPerDay)
+|Sum({<[Fiscal Year]={$(=vYTDYear)}, FiscalMonthNum={"<=$(vCurrentMonthNum)"}>}[Sales Price]*[Sales Quantity])/Sum({<[Fiscal Year]={$(=(vYTDYear)-1)}, FiscalMonthNum={"<=$(vCurrentMonthNum)"}>}[Sales Price]*[Sales Quantity])|
+count(distinct [Line Desc 1])
+Sum (AROpen)-Sum(ARCurrent)
+((Sum([Sales Quantity]*[Sales Price]))-(Sum([Sales Cost Amount])))/(Sum([Sales Price]* [Sales Quantity]))
+Sum({<[Fiscal Year]={$(=(vCurrentYear)-2)}>}[Sales Amount])
+(Sum({<[Fiscal Year]={$(vYTDYear)}>} ThroughputQty*CostPrice)/Sum({<[Fiscal Year]={$(vYTDYear)}>} StockOH*CostPrice))
+(Sum({<[Fiscal Year]={$(vCurrentYear)}>}[Sales Amount]))/(Sum({<[Fiscal Year]={$(=(vCurrentYear)-1)}>}[Sales Amount]))-1
+|if(GetSelectedCount([Fiscal Year])<>1,  	Sum({<[Fiscal Year]={$(=max([Fiscal Year]))} >} ExpenseActual)/1000, 	Sum({<[Fiscal Year]={$(vYear)}>} ExpenseActual)/1000)|
+sum( {<[Line Desc 1] = E({$} [Line Desc 1])>} [Sales Amount] )
+Count(Distinct [Item-Branch Key])
+sum(StockOH)
+|Sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>}[Sales Amount])/(Sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>}[Budget Amount]))|
+Sum(ExpenseBudget)/1000
+Sum (ARAvgBal)/Sum (ARSalesPerDay)
+count(distinct [Customer Number])
+Sum(ExpenseBudget)/1000
+Sum({<[Fiscal Year]={$(vYTDYear)}>}ExpenseActual)/Sum({<[Fiscal Year]={$(vYTDYear)}>}[Sales Price]*[Sales Quantity])
+|if(GetSelectedCount([Fiscal Year])<>1,  	Sum({<[Fiscal Year]={$(=max([Fiscal Year])-1)} >} ExpenseActual)/1000, 	Sum({<[Fiscal Year]={$(=vYear-1)}>} ExpenseActual)/1000)|
+Sum([Late Shipment])/Count([OrderID])
+Sum({<[Fiscal Year]={$(=(vCurrentYear)-1)}>}[Sales Amount])

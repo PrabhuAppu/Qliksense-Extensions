@@ -1,0 +1,95 @@
+AccountGroup
+AccountGroupDesc
+AccountGroup
+Account
+MonthlyRegionKey
+Budget Amount
+Line Desc 1
+ClassTurns
+ThroughputQty
+CostPrice
+StockOH
+Product Type
+Short Name
+Product Group
+Product Sub Group
+Product Line
+Product Sub Group
+Product Sub Group Desc
+Product Type
+Product Type Desc
+Product Group
+Product Group Desc
+Short Name
+Item-Branch Key
+Sales Rep
+Sales Rep Name
+MonthlyRegionKey
+Address Number
+YYYYMM
+CustKey
+Line Desc 1
+Item-Branch Key
+Region
+Invoice Number
+Late Shipment
+Open Order Amount
+Order Number
+Order Status
+OrderDate
+OrderID
+OrderStat
+Promised Delivery Date
+Sales Amount
+Sales Cost Amount
+Sales Margin Amount
+Sales Price
+Sales Quantity
+Ship To
+Account
+MonthlyRegionKey
+ExpenseActual
+ExpenseBudget
+YYYYMM
+Account
+AccountDesc
+Address Number
+Customer Address 1
+Zip Code
+CustKey
+CustKeyAR
+Sales Rep
+Address Number
+Segment
+Business Family
+Customer
+Customer Number
+Customer Type
+Distribution Channel Mgr
+Division
+Phone
+Region Code
+Regional Sales Mgr
+Zone Mgr
+Segment
+SegmentDesc
+SegmentGroup
+YYYYMM
+Fiscal Quarter
+Fiscal Year
+FiscalMonth
+FiscalMonthNum
+FiscalRollQt
+CustKeyAR
+ARGross
+AROpen
+ARCurrent
+AR1-30
+AR31-60
+AR60+
+ARCredit
+ARSalesPerDay
+ARAvgBal
+CustKeyAR
+ARAge
+ARAgeBal

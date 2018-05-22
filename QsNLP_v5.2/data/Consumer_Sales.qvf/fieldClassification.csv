@@ -1,0 +1,254 @@
+BudgetPeriod,False
+BudKey,True
+DummyField,False
+BudgetInput2,False
+BudgetYear,False
+Type,True
+Budget Amount,False
+Actual Amount,False
+BudgetInput,False
+BudgetPeriod,False
+textBudgetPeriod,True
+CustKey,True
+Cust_Increasing,False
+Cust_Decreasing,False
+Cust_Steady,False
+Cust_New,False
+Cust_Lost,False
+Cust_Other,False
+Customer Growth,True
+Customer Growth Percent,False
+State,True
+Customer X,False
+Customer Y,False
+DateKey,False
+Day,False
+Month,False
+Quarter,True
+Week,False
+Week Ending Date,False
+Weekday,False
+Year,False
+YearMonth,False
+AggKey,True
+YTD Sales Amount,False
+LY YTD Sales Amount,False
+TM Sales Amount,False
+LY TM Sales Amount,False
+LY Tot Sales Amount,False
+YTD Sales Margin Amount,False
+LY YTD Sales Margin Amount,False
+TM Sales Margin Amount,False
+LY TM Sales Margin Amount,False
+LY Tot Sales Margin Amount,False
+Current Open Amount,False
+Current BackOrder Amount,False
+Current Backlog Amount,False
+Business Family,True
+Business Family Name,True
+Channel,True
+Channel Name,True
+State,True
+Address Number,True
+Customer Address 1,True
+Customer Address 2,True
+Customer Address 3,True
+Customer Address 4,True
+Zip Code,False
+City,True
+County,True
+Country,True
+Zone Mgr,True
+Business Family,True
+Region Code,False
+Regional Sales Mgr,True
+Customer Type,True
+Channel,True
+Distribution Channel Mgr,True
+Address Number,True
+Division,False
+Category Code 5,True
+Category Code 7,True
+Price Discount Cde 4,True
+Line of Business,True
+Sales Volume,True
+Customer,True
+Customer Number,False
+Consolidated,False
+Search Type,True
+Phone,True
+Business Unit,False
+SIC Code,True
+Tax Certificate,True
+Customer Type,True
+Customer Type Name,True
+Distribution Channel Mgr,True
+Distribution Channel Mgr Name,True
+Division,False
+Division Name,True
+Family Class,True
+Family Class Desc,True
+Short Name,False
+Item-Branch Key,True
+Item Branch 3rd Item Number,False
+Item Branch G/L Category,True
+Item Branch 2nd Item Number,False
+Item Branch Reorder Quantity,False
+Horsepower,False
+Item Branch Category Code 6,False
+Item Branch Category Code 7,True
+Item Branch Primary Supplier,False
+Item Class,True
+Item Class Desc,True
+Product Type,False
+Product Group,False
+Master Planning Family,False
+Product Sub Group,False
+Product Line,False
+Short Name,False
+Item Count,False
+Product Price Group,False
+Product Department,False
+Master Planning Family,False
+Master Planning Family Desc,True
+Product Group,False
+Product Group Desc,True
+Product Line,False
+Product Line Desc,True
+Product Sub Group,False
+Product Sub Group Desc,True
+Product Type,False
+Product Type Desc,True
+Regional Sales Mgr,True
+Regional Sales Mgr Name,True
+Order Number,False
+Order Date Header,False
+Address Number Header,True
+Order Gross Amount,False
+Order Type Header,True
+Business Unit Order Header,True
+Hold Orders Code Header,True
+Company Number Header,False
+Stop Code Header,True
+Zone Code Header,True
+Hold Code Header,True
+Ship To Address Header,False
+Parent Address Number Header,False
+Orderby Header,False
+Freight Code Header,False
+Region Code,False
+Region Name,True
+Sales Rep,False
+Sales Rep Name,True
+Ship To State,True
+Ship To Zip Code Short,False
+Ship To,True
+Ship To Customer Address 1,True
+Ship To Customer Address 2,True
+Ship To Customer Address 3,True
+Ship To Customer Address 4,True
+Ship To Zip Code,False
+Ship To City,True
+Ship To County,True
+Ship To Country,True
+BudKey,True
+YTD Budget Amount,False
+TM Budget Amount,False
+Zone Mgr,True
+Zone Mgr Name,True
+Fiscal,True
+FiscalRank,False
+Order Number,False
+BasketItem,True
+maptype,True
+Order Number,False
+OrderCount,False
+Order Date Header,False
+Order Date 2,False
+OrderYear,False
+OrderMonth,False
+OrderQuarter,False
+State,True
+state_abbr,True
+state_name,True
+DateKey,False
+Item-Branch Key,False
+Order Number,False
+NoOfItem,False
+MaxNoOfItem,False
+Sales by Customer by YearQuarter,False
+Low,False
+High,False
+BudKey,True
+CustKey,True
+DateKey,False
+AggKey,True
+Address Number,True
+Family Class,True
+Item-Branch Key,False
+Item Class,True
+Order Number,False
+Sales Rep,False
+Ship To,True
+Line Desc 1,True
+Sales Amount Based on List Price,False
+Invoice Number,False
+Backlog Amount,False
+Sales Quantity,False
+Qty Backordered,False
+Actual Delivery Date,False
+Last Status,False
+Number Of Days Late,False
+Doc Type,True
+Order Status Primary,True
+Order Status,True
+Line Number,False
+Item Number,False
+Line Type,True
+List Price,False
+Sales Cost Amount,False
+Order Margin,False
+Open Order Cost Amount,False
+Discount Amount,False
+Invoice Date,False
+Company Number Detail,False
+Payment Terms,False
+Sales Unit Cost Price,False
+Open Order Quantity,False
+Unit Price,False
+Business Unit Details,True
+Next Status,False
+Promised Delivery Date,False
+Sales Margin Amount,False
+U/M,True
+Parent Address Number,False
+Open Order Amount,False
+Sales Amount,False
+BackOrder Amount,False
+Sales Price,False
+Address Order Number,False
+Late Shipment,False
+Order Type Detail,True
+Shipments,False
+Ship To State,True
+Ship To X,False
+Ship To Y,False
+Ship To Zip Code Short,False
+latitude,False
+longitude,False
+QlikPoint,True
+BasketItem,True
+Basket Produce Line,False
+Basket Product Group Desc,True
+Basket Product Line Desc,True
+Basket Product Sub Group Desc,True
+Basket Product Type Desc,True
+Basket Item Desc,True
+Metric,True
+Sales Rep Name,True
+Sales Rep Performance,True
+State,True
+Area,True
+Line Desc 1,True
+Inventory,False
+Lead Time,False

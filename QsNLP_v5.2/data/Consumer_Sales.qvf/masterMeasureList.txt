@@ -1,0 +1,39 @@
+% OnTime Shipments
+Actual Amount
+Avg Lead Time
+Avg Sales
+Avg Sales (Prev Sel)
+Budget %
+Budget $
+Central Margin %
+Central Revenue
+Customer Count
+GP%
+Inventory
+Late Shipments
+Lost Customer Count
+LY Sales
+Margin %
+Margin % (Prev Selection)
+Margin Amount
+New Customer Count
+Northeast Revenue
+Northeast Margin %
+OnTime Shipments
+Order Count
+Order Count Total
+Revenue
+Revenue (Prev Sel)
+Sales $
+Sales $ (Prev Sel)
+Sales Quantity
+Sales Variance
+Sales Variance %
+Sales vs Budget %
+Southern Margin %
+Southern Revenue
+Total Shipments
+TY Sales
+TY vs LY Sales
+Western Margin %
+Western Revenue

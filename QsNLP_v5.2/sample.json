@@ -1,0 +1,101 @@
+[
+	{
+		'dimension': [
+			{
+				'percentMatch': 0.5,
+				'actword': [
+					'product'
+				],
+				'measureDef': 0,
+				'name': 'ProductType',
+				'measureLabel': 0,
+				'DimensionDef': 1,
+				'wordsMatching': 1,
+				'calcDimensionLabel': 1,
+				'classification': 'dimension'
+			}
+		],
+		'measure': [
+			{
+				'expression': 'COUNT(<SET>DISTINCTProductType)',
+				'percentMatch': 1.0,
+				'actword': [
+					'product'
+				],
+				'classification': 'measure',
+				'measureDef': 0,
+				'name': 'ProductType',
+				'measureLabel': 0,
+				'DimensionDef': 0,
+				'calcDimensionLabel': 0,
+				'wordsMatching': 1
+			}
+		]
+	},
+	{
+		'dimension': [
+			{
+				'percentMatch': 0.5,
+				'actword': [
+					'product'
+				],
+				'measureDef': 0,
+				'name': 'ProductGroup',
+				'measureLabel': 0,
+				'DimensionDef': 1,
+				'wordsMatching': 1,
+				'calcDimensionLabel': 1,
+				'classification': 'dimension'
+			}
+		],
+		'measure': [
+			{
+				'expression': 'COUNT(<SET>DISTINCTProductGroup)',
+				'percentMatch': 1.0,
+				'actword': [
+					'product'
+				],
+				'classification': 'measure',
+				'measureDef': 0,
+				'name': 'ProductGroup',
+				'measureLabel': 0,
+				'DimensionDef': 0,
+				'calcDimensionLabel': 0,
+				'wordsMatching': 1
+			}
+		]
+	},
+	{
+		'dimension': [
+			{
+				'percentMatch': 0.5,
+				'actword': [
+					'product'
+				],
+				'measureDef': 0,
+				'name': 'ProductLine',
+				'measureLabel': 0,
+				'DimensionDef': 0,
+				'wordsMatching': 1,
+				'calcDimensionLabel': 0,
+				'classification': 'dimension'
+			}
+		],
+		'measure': [
+			{
+				'expression': 'COUNT(<SET>DISTINCTProductLine)',
+				'percentMatch': 1.0,
+				'actword': [
+					'product'
+				],
+				'classification': 'measure',
+				'measureDef': 0,
+				'name': 'ProductLine',
+				'measureLabel': 0,
+				'DimensionDef': 0,
+				'calcDimensionLabel': 0,
+				'wordsMatching': 1
+			}
+		]
+	}
+]

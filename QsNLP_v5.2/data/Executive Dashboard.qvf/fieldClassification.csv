@@ -1,0 +1,96 @@
+fieldName,isText,isKey,isDate,isTimeStamp,isInteger,isNumeric,uniqueness
+AccountGroup,False,True,False,False,True,True,0.8518518518518519
+AccountGroupDesc,True,False,False,False,False,False,0.1111111111111111
+AccountGroup,False,True,False,False,True,True,0.22330097087378642
+Account,False,True,False,False,True,True,1.0
+MonthlyRegionKey,True,True,False,False,False,False,1.1666666666666667
+Budget Amount,False,False,False,False,True,True,0.8564814814814815
+Line Desc 1,True,True,False,False,False,False,0.9856459330143541
+ClassTurns,False,False,False,False,True,True,0.02631578947368421
+ThroughputQty,False,False,False,False,False,True,0.5466507177033493
+CostPrice,False,False,False,False,False,True,0.8504784688995215
+StockOH,False,False,False,False,False,True,0.3145933014354067
+Product Type,False,True,False,False,True,True,0.03753026634382567
+Short Name,False,True,False,False,True,True,1.0
+Product Group,False,True,False,False,True,True,0.020581113801452784
+Product Sub Group,False,True,False,False,True,True,0.0847457627118644
+Product Line,False,False,False,False,True,True,0.002421307506053269
+Product Sub Group,False,True,False,False,True,True,1.0
+Product Sub Group Desc,True,False,False,False,False,False,1.0
+Product Type,False,True,False,False,True,True,1.0
+Product Type Desc,True,False,False,False,False,False,1.0
+Product Group,False,True,False,False,True,True,1.0
+Product Group Desc,True,False,False,False,False,False,1.0
+Short Name,False,True,False,False,True,True,0.9116997792494481
+Item-Branch Key,True,True,False,False,False,False,1.0
+Sales Rep,False,True,False,False,True,True,1.0
+Sales Rep Name,True,False,False,False,False,False,0.984375
+MonthlyRegionKey,True,True,False,False,False,False,0.0034324475257774085
+Address Number,False,True,False,False,True,True,0.001770707056948663
+YYYYMM,False,True,True,True,True,True,0.0004903496465396298
+CustKey,False,True,False,False,True,True,0.001770707056948663
+Line Desc 1,True,True,False,False,False,False,0.011223558576351527
+Item-Branch Key,True,True,False,False,False,False,0.012340466104580682
+Region,True,False,False,False,False,False,8.17249410899383e-05
+Invoice Number,False,False,False,False,True,True,0.24535189397550977
+Late Shipment,False,False,False,False,True,True,2.7241647029979432e-05
+Open Order Amount,False,False,False,False,False,True,0.010637863165206969
+Order Number,False,False,False,False,True,True,0.19571761308688723
+Order Status,True,False,False,False,False,False,5.4483294059958865e-05
+OrderDate,False,False,True,True,True,True,0.009071468460983152
+OrderID,False,False,False,False,True,True,0.7796968004685564
+OrderStat,True,False,False,False,False,False,5.4483294059958865e-05
+Promised Delivery Date,True,False,False,False,False,False,0.0
+Sales Amount,False,False,False,False,False,True,0.19833281120176527
+Sales Cost Amount,False,False,False,False,False,True,0.10686898129860932
+Sales Margin Amount,False,False,False,False,False,True,0.2162850565945217
+Sales Price,False,False,False,False,False,True,0.10481223694784586
+Sales Quantity,False,False,False,False,False,True,0.004167971995586853
+Ship To,False,False,False,False,True,True,0.005843333287930588
+Account,False,True,False,False,True,True,0.013831072915267893
+MonthlyRegionKey,True,True,False,False,False,False,0.03383912985094669
+ExpenseActual,False,False,False,False,False,True,0.6731569759634752
+ExpenseBudget,False,False,False,False,False,True,0.37813884785819796
+YYYYMM,False,True,True,True,True,True,1.0
+Account,False,True,False,False,True,True,2.2888888888888888
+AccountDesc,True,False,False,False,False,False,1.0
+Address Number,False,True,False,False,True,True,1.0
+Customer Address 1,True,False,False,False,False,False,0.9230769230769231
+Zip Code,False,False,False,False,False,False,0.8923076923076924
+CustKey,False,True,False,False,True,True,1.7808219178082192
+CustKeyAR,False,True,False,False,True,True,1.0
+Sales Rep,False,True,False,False,True,True,0.49230769230769234
+Address Number,False,True,False,False,True,True,1.0
+Segment,True,True,False,False,False,False,0.06153846153846154
+Business Family,True,False,False,False,False,False,0.046153846153846156
+Customer,True,False,False,False,False,False,1.0
+Customer Number,False,False,False,False,True,True,1.0
+Customer Type,True,False,False,False,False,False,0.015384615384615385
+Distribution Channel Mgr,True,False,False,False,False,False,0.038461538461538464
+Division,False,False,False,False,True,True,0.015384615384615385
+Phone,True,False,False,False,False,False,0.007692307692307693
+Region Code,False,False,False,False,True,True,0.03076923076923077
+Regional Sales Mgr,True,False,False,False,False,False,0.11538461538461539
+Zone Mgr,True,False,False,False,False,False,0.046153846153846156
+Segment,True,True,False,False,False,False,1.0
+SegmentDesc,True,False,False,False,False,False,0.75
+SegmentGroup,True,False,False,False,False,False,0.25
+YYYYMM,False,True,True,True,True,True,1.0
+Fiscal Quarter,False,False,False,False,True,True,0.1111111111111111
+Fiscal Year,False,False,False,False,True,True,0.08333333333333333
+FiscalMonth,False,False,False,False,True,True,0.3333333333333333
+FiscalMonthNum,False,False,False,False,True,True,0.3333333333333333
+FiscalRollQt,True,False,False,False,False,False,0.3333333333333333
+CustKeyAR,False,True,False,False,True,True,1.0
+ARGross,False,False,False,False,False,True,1.0
+AROpen,False,False,False,False,False,True,0.821917808219178
+ARCurrent,False,False,False,False,False,True,0.6164383561643836
+AR1-30,False,False,False,False,False,True,0.547945205479452
+AR31-60,False,False,False,False,False,True,0.2876712328767123
+AR60+,False,False,False,False,False,True,0.3972602739726027
+ARCredit,False,False,False,False,False,True,0.3972602739726027
+ARSalesPerDay,False,False,False,False,False,True,0.9452054794520548
+ARAvgBal,False,False,False,False,False,True,0.958904109589041
+CustKeyAR,False,True,False,False,True,True,0.25
+ARAge,True,False,False,False,False,False,0.0136986301369863
+ARAgeBal,False,False,False,False,False,True,0.4520547945205479

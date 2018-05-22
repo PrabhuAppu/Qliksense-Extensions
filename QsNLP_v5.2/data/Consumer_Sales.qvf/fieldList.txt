@@ -1,0 +1,254 @@
+BudgetPeriod
+BudKey
+DummyField
+BudgetInput2
+BudgetYear
+Type
+Budget Amount
+Actual Amount
+BudgetInput
+BudgetPeriod
+textBudgetPeriod
+CustKey
+Cust_Increasing
+Cust_Decreasing
+Cust_Steady
+Cust_New
+Cust_Lost
+Cust_Other
+Customer Growth
+Customer Growth Percent
+State
+Customer X
+Customer Y
+DateKey
+Day
+Month
+Quarter
+Week
+Week Ending Date
+Weekday
+Year
+YearMonth
+AggKey
+YTD Sales Amount
+LY YTD Sales Amount
+TM Sales Amount
+LY TM Sales Amount
+LY Tot Sales Amount
+YTD Sales Margin Amount
+LY YTD Sales Margin Amount
+TM Sales Margin Amount
+LY TM Sales Margin Amount
+LY Tot Sales Margin Amount
+Current Open Amount
+Current BackOrder Amount
+Current Backlog Amount
+Business Family
+Business Family Name
+Channel
+Channel Name
+State
+Address Number
+Customer Address 1
+Customer Address 2
+Customer Address 3
+Customer Address 4
+Zip Code
+City
+County
+Country
+Zone Mgr
+Business Family
+Region Code
+Regional Sales Mgr
+Customer Type
+Channel
+Distribution Channel Mgr
+Address Number
+Division
+Category Code 5
+Category Code 7
+Price Discount Cde 4
+Line of Business
+Sales Volume
+Customer
+Customer Number
+Consolidated
+Search Type
+Phone
+Business Unit
+SIC Code
+Tax Certificate
+Customer Type
+Customer Type Name
+Distribution Channel Mgr
+Distribution Channel Mgr Name
+Division
+Division Name
+Family Class
+Family Class Desc
+Short Name
+Item-Branch Key
+Item Branch 3rd Item Number
+Item Branch G/L Category
+Item Branch 2nd Item Number
+Item Branch Reorder Quantity
+Horsepower
+Item Branch Category Code 6
+Item Branch Category Code 7
+Item Branch Primary Supplier
+Item Class
+Item Class Desc
+Product Type
+Product Group
+Master Planning Family
+Product Sub Group
+Product Line
+Short Name
+Item Count
+Product Price Group
+Product Department
+Master Planning Family
+Master Planning Family Desc
+Product Group
+Product Group Desc
+Product Line
+Product Line Desc
+Product Sub Group
+Product Sub Group Desc
+Product Type
+Product Type Desc
+Regional Sales Mgr
+Regional Sales Mgr Name
+Order Number
+Order Date Header
+Address Number Header
+Order Gross Amount
+Order Type Header
+Business Unit Order Header
+Hold Orders Code Header
+Company Number Header
+Stop Code Header
+Zone Code Header
+Hold Code Header
+Ship To Address Header
+Parent Address Number Header
+Orderby Header
+Freight Code Header
+Region Code
+Region Name
+Sales Rep
+Sales Rep Name
+Ship To State
+Ship To Zip Code Short
+Ship To
+Ship To Customer Address 1
+Ship To Customer Address 2
+Ship To Customer Address 3
+Ship To Customer Address 4
+Ship To Zip Code
+Ship To City
+Ship To County
+Ship To Country
+BudKey
+YTD Budget Amount
+TM Budget Amount
+Zone Mgr
+Zone Mgr Name
+Fiscal
+FiscalRank
+Order Number
+BasketItem
+maptype
+Order Number
+OrderCount
+Order Date Header
+Order Date 2
+OrderYear
+OrderMonth
+OrderQuarter
+State
+state_abbr
+state_name
+DateKey
+Item-Branch Key
+Order Number
+NoOfItem
+MaxNoOfItem
+Sales by Customer by YearQuarter
+Low
+High
+BudKey
+CustKey
+DateKey
+AggKey
+Address Number
+Family Class
+Item-Branch Key
+Item Class
+Order Number
+Sales Rep
+Ship To
+Line Desc 1
+Sales Amount Based on List Price
+Invoice Number
+Backlog Amount
+Sales Quantity
+Qty Backordered
+Actual Delivery Date
+Last Status
+Number Of Days Late
+Doc Type
+Order Status Primary
+Order Status
+Line Number
+Item Number
+Line Type
+List Price
+Sales Cost Amount
+Order Margin
+Open Order Cost Amount
+Discount Amount
+Invoice Date
+Company Number Detail
+Payment Terms
+Sales Unit Cost Price
+Open Order Quantity
+Unit Price
+Business Unit Details
+Next Status
+Promised Delivery Date
+Sales Margin Amount
+U/M
+Parent Address Number
+Open Order Amount
+Sales Amount
+BackOrder Amount
+Sales Price
+Address Order Number
+Late Shipment
+Order Type Detail
+Shipments
+Ship To State
+Ship To X
+Ship To Y
+Ship To Zip Code Short
+latitude
+longitude
+QlikPoint
+BasketItem
+Basket Produce Line
+Basket Product Group Desc
+Basket Product Line Desc
+Basket Product Sub Group Desc
+Basket Product Type Desc
+Basket Item Desc
+Metric
+Sales Rep Name
+Sales Rep Performance
+State
+Area
+Line Desc 1
+Inventory
+Lead Time

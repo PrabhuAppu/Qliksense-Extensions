@@ -1,0 +1,15 @@
+{
+	"type": "mashup",
+	"name": "VAssistant",
+	"description": "Mashup template based on a Bootstrap grid",
+	"homepage": "",
+	"author": "",
+	"version": "1.0.0",
+	"preview": "preview.png",
+	"keywords": "qlik-sense, mashup",
+	"license": "",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=1.0.x"
+	}
+}

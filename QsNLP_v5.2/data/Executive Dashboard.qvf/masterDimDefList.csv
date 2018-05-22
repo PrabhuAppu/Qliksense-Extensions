@@ -1,0 +1,22 @@
+Customer Number,Customer Number
+Sales Rep Name,Sales Rep Name
+Product Type Desc,Product Type Desc
+Product,Line Desc 1
+Product Group,Product Group Desc
+Order Number,Order Number
+Account Group,AccountGroupDesc
+Region,Region
+Year Month,YYYYMM
+Inventory Turns,ClassTurns
+Product Sub Group Desc,Product Sub Group Desc
+Account,AccountDesc
+Customer,Customer
+ARAge,ARAge
+Order Status,Order Status
+,AccountDesc
+,AccountGroupDesc
+Year,Fiscal Year
+Customer Type,Customer Type
+Segment,SegmentDesc
+Quarter,Fiscal Quarter
+Month,FiscalMonth

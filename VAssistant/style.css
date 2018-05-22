@@ -1,0 +1,24 @@
+.searcharea{
+   /* background-color: #eee;*/
+    
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+/*.searchBox{
+    width: 33%;
+}
+
+.search{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}*/
+
+.obj{
+    border: 1px solid #eee;
+    background-color: white;
+    height: 100%;
+}

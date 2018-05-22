@@ -1,0 +1,21 @@
+1,no of <FIELD>, COUNT(<SET>DISTINCT <FIELD>)
+1,number of <FIELD>, COUNT(<SET>DISTINCT <FIELD>)
+1,noof <FIELD>, COUNT(<SET>DISTINCT <FIELD>)
+1,numberof <FIELD>, COUNT(<SET>DISTINCT <FIELD>)
+2,avg,AVG(<SET><FIELD>)
+2,average,AVG(<SET><FIELD>)
+3,top <NUMBER>,SUM(<SET><FIELD>)
+5,highest,CONCAT(DISTINCT IF(AGGR(RANK(SUM(<MEASURE>)), <DIMENSION>)=1,<DIMENSION>))
+6,lowest,
+8,bottom,
+10,sum,SUM(<SET><FIELD>)
+11,total,SUM(<SET><FIELD>)
+12,first
+13,last
+14,value,SUM(<SET><FIELD>)
+15,max,MAX(<SET><FIELD>)
+16,maximum,MAX(<SET><FIELD>)
+17,min,MIN(<SET><FIELD>)
+18,minimum,MIN(<SET><FIELD>)
+21,ratio
+23,share,SUM(<SET><FIELD>)/SUM(<SET>TOTAL <FIELD>)

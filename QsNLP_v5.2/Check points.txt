@@ -1,0 +1,22 @@
+No of times used as dimension
+No of times used as measure
+Is String
+Is Number
+Is Key
+Is DateTime
+Is Year
+Is YearMonth
+Is Field value
+Generic terms that defines functions to be used like below
+    Sum
+    Total
+    Max
+    Min
+    Highest
+    Lowest
+    Top | Top N
+    Botton | Bottom N
+    First | First N
+    Last | Last N
+    Numeric
+    
