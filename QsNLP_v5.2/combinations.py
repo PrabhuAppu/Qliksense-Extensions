@@ -6,8 +6,12 @@ def buildChartCombination(queryResult, query):
     HyperCubeListMeas = []
 
     # Gets all the words from measure and dimension
-    allActWords = [(obj['actword']) for obj in queryResult['measure']] + [(obj['actword']) for obj in queryResult['dimension']] 
-    allActWords = [ item for innerlist in allActWords for item in innerlist ]
+    #allActWords = [(obj['actword']) for obj in queryResult['measure']] + [(obj['actword']) for obj in queryResult['dimension']] 
+    #allActWords = [ item for innerlist in allActWords for item in innerlist ]
+    
+    allActWords = [' '.join(obj['actword']) for obj in queryResult['measure']] + [' '.join(obj['actword']) for obj in queryResult['dimension']] 
+    #allActWords = [ item for innerlist in allActWords for item in innerlist ]
+    
     dim={}
     
 
@@ -39,14 +43,18 @@ def buildChartCombination(queryResult, query):
             if iter2 > iter and dim2['name'] not in [obj['actualName'] for obj in queryResult['filters']]:
             #if dim2['name'] != dim['name']:
                 # Get the keywords from all dimensions added in hypercube  
-                alreadyAvailable = [obj['actword'] for obj in [obj for obj in HyperCube['dimension']]]
-                alreadyAvailable = [ item for innerlist in alreadyAvailable for item in innerlist ]
+                #alreadyAvailable = [obj['actword'] for obj in [obj for obj in HyperCube['dimension']]]
+                #alreadyAvailable = [ item for innerlist in alreadyAvailable for item in innerlist ]
+                
+                alreadyAvailable = [' '.join(obj['actword']) for obj in [obj for obj in HyperCube['dimension']]]
+                #alreadyAvailable = [ item for innerlist in alreadyAvailable for item in innerlist ]
 
                 ### --------------------------------------------------------------------- ###
                 # Compare the keyword of new dimension with existing dimensions' keyword in hypercube 
                 # If the keyword not exists then add it to the HyperCube 
                 ### --------------------------------------------------------------------- ###
-                if  len([obj for obj in dim2['actword'] if obj not in alreadyAvailable])>=len(dim2['actword']):
+                #if  len([obj for obj in dim2['actword'] if obj not in alreadyAvailable])>=len(dim2['actword']):
+                if ' '.join(dim2['actword']) not in alreadyAvailable:
                     HyperCube['dimension'].append(dim2)
         
         ### --------------------------------------------------------------------- ###
@@ -55,18 +63,24 @@ def buildChartCombination(queryResult, query):
         ### --------------------------------------------------------------------- ###
         for meas2 in queryResult['measure']:
             # Get the keywords from all dimensions added in hypercube  
-            alreadyAvailable = [obj['actword'] for obj in [obj for obj in HyperCube['dimension']]]
-            alreadyAvailable = [ item for innerlist in alreadyAvailable for item in innerlist ]
+            #alreadyAvailable = [obj['actword'] for obj in [obj for obj in HyperCube['dimension']]]
+            #alreadyAvailable = [ item for innerlist in alreadyAvailable for item in innerlist ]
 
+            alreadyAvailable = [' '.join(obj['actword']) for obj in [obj for obj in HyperCube['dimension']]]
+            
             # Get the keywords from all measures added in hypercube  
-            alreadyAvailableMeas = [obj['actword'] for obj in [obj for obj in HyperCube['measure']]]
-            alreadyAvailableMeas = [ item for innerlist in alreadyAvailableMeas for item in innerlist ]+alreadyAvailable
+            #alreadyAvailableMeas = [obj['actword'] for obj in [obj for obj in HyperCube['measure']]]
+            #alreadyAvailableMeas = [ item for innerlist in alreadyAvailableMeas for item in innerlist ]+alreadyAvailable
 
+            alreadyAvailableMeas = [' '.join(obj['actword']) for obj in [obj for obj in HyperCube['measure']]]
+            alreadyAvailableMeas = alreadyAvailableMeas+alreadyAvailable
+            
             ### --------------------------------------------------------------------- ###
             # Compare the keyword of new measure with existing dimensions' keyword and measures' keyword in hypercube 
             # If the keyword not exists then add it to the HyperCube 
             ### --------------------------------------------------------------------- ###
-            if  len([obj for obj in meas2['actword'] if obj not in alreadyAvailableMeas])>=len(meas2['actword']):
+            #if  len([obj for obj in meas2['actword'] if obj not in alreadyAvailableMeas])>=len(meas2['actword']):
+            if  ' '.join(meas2['actword']) not in alreadyAvailableMeas:
                 # print(alreadyAvailableMeas)
                 # print(meas2['name'])
                 # print(dim['name'])
@@ -102,14 +116,18 @@ def buildChartCombination(queryResult, query):
             iter2 += 1
             if iter2 > iter:
                 # Get the keywords from all measures added in hypercube  
-                alreadyAvailable = [obj['actword'] for obj in [obj for obj in HyperCube['measure']]]
-                alreadyAvailable = [ item for innerlist in alreadyAvailable for item in innerlist ]
+                #alreadyAvailable = [obj['actword'] for obj in [obj for obj in HyperCube['measure']]]
+                #alreadyAvailable = [ item for innerlist in alreadyAvailable for item in innerlist ]
+                
+                alreadyAvailable = [' '.join(obj['actword']) for obj in [obj for obj in HyperCube['measure']]]
+                #alreadyAvailable = [ item for innerlist in alreadyAvailable for item in innerlist ]
                 
                 ### --------------------------------------------------------------------- ###
                 # Compare the keyword of new measure with existing measures' keyword in hypercube 
                 # If the keyword not exists then add it to the HyperCube 
                 ### --------------------------------------------------------------------- ###
-                if  len([obj for obj in meas2['actword'] if obj not in alreadyAvailable])>=len(meas2['actword']):
+                #if  len([obj for obj in meas2['actword'] if obj not in alreadyAvailable])>=len(meas2['actword']):
+                if  ' '.join(meas2['actword']) not in alreadyAvailable:
                     HyperCube['measure'].append(meas2)
        
         
@@ -122,18 +140,23 @@ def buildChartCombination(queryResult, query):
             if dim2['name'] not in [obj['actualName'] for obj in queryResult['filters']]:
             #if dim2['name'] != dim['name']:
                 # Get the keywords from all measures added in hypercube  
-                alreadyAvailableMeas = [obj['actword'] for obj in [obj for obj in HyperCube['measure']]]
-                alreadyAvailableMeas = [ item for innerlist in alreadyAvailableMeas for item in innerlist ]
-
+                #alreadyAvailableMeas = [obj['actword'] for obj in [obj for obj in HyperCube['measure']]]
+                #alreadyAvailableMeas = [ item for innerlist in alreadyAvailableMeas for item in innerlist ]
+                alreadyAvailableMeas = [' '.join(obj['actword']) for obj in [obj for obj in HyperCube['measure']]]
+                
                 # Get the keywords from all dimensions added in hypercube
-                alreadyAvailable = [obj['actword'] for obj in [obj for obj in HyperCube['dimension']]]
-                alreadyAvailable = [ item for innerlist in alreadyAvailable for item in innerlist ]+alreadyAvailableMeas
+                #alreadyAvailable = [obj['actword'] for obj in [obj for obj in HyperCube['dimension']]]
+                #alreadyAvailable = [ item for innerlist in alreadyAvailable for item in innerlist ]+alreadyAvailableMeas
 
+                alreadyAvailable = [' '.join(obj['actword']) for obj in [obj for obj in HyperCube['dimension']]]
+                alreadyAvailable = alreadyAvailable+alreadyAvailableMeas
+                
                 ### --------------------------------------------------------------------- ###
                 # Compare the keyword of new measure with existing dimensions' keyword and measures' keyword in hypercube 
                 # If the keyword not exists then add it to the HyperCube 
                 ### --------------------------------------------------------------------- ###
-                if  len([obj for obj in dim2['actword'] if obj not in alreadyAvailable])>=len(dim2['actword']):
+                #if  len([obj for obj in dim2['actword'] if obj not in alreadyAvailable])>=len(dim2['actword']):
+                if  ' '.join(dim2['actword']) not in alreadyAvailable:
                     HyperCube['dimension'].append(dim2)
                 # Need to revisit this scenario and create the same for measures too
                 else:
@@ -192,14 +215,14 @@ def createMeasureWithFilter(cubeList, queryResult, query):
             Exp = MeasureMethod#"SUM( <SET> <FIELD> )"
             
             ReducedFilter = []
-            if len(MeasureMethod["omitWords"])>0:
-                ReducedFilter = [obj for obj in queryResult['filters'] if len(set(obj['qTerm']) & set(MeasureMethod["omitWords"]))==0]
+            if MeasureMethod!=None and len(MeasureMethod["omitWords"])>0:
+                ReducedFilter = [obj for obj in queryResult['filters'] if len(set([obj.lower() for obj in obj['qTerm']]) & set([obj.lower() for obj in MeasureMethod["omitWords"]]))==0]
             else:
                 ReducedFilter = queryResult['filters']
             
             filter = "{<"+(",").join(["["+obj['actualName']+"]"+"={"+(",").join(["'"+term+"'" for term in obj['qTerm']])+"}"  for obj in ReducedFilter])+">}" if len(ReducedFilter)>0 else ""
         
-            if MeasureMethod["CountMeasure"]: 
+            if MeasureMethod!=None and MeasureMethod["CountMeasure"]: 
                 MeasureMethod['measure']["expression"].replace("<SET>",filter)  
                 cube['measure'].append(MeasureMethod['measure'])
                 cube['dimension'] = [obj for obj in cube['dimension'] if obj['name'] != MeasureMethod['measure']['name']]
@@ -208,6 +231,12 @@ def createMeasureWithFilter(cubeList, queryResult, query):
                 measure['expression'] = measure['expression'].replace("<SET>",filter)
             #measure['expression']=Exp.replace("<FIELD>",'['+measure['name']+']').replace("<SET>",filter)
             
+            if MeasureMethod!=None:
+                for dim in cube['dimension']:
+                    dim['dimLimit']=MeasureMethod['dimensionLimit']
+            else:
+                for dim in cube['dimension']:
+                    dim['dimLimit']={}
         else:
             for measure in cube['measure']:
                 MeasureMethod = aggrMethod.getAggrMethod(query, cube)
@@ -219,7 +248,9 @@ def createMeasureWithFilter(cubeList, queryResult, query):
 
                 ReducedFilter = []
                 if len(MeasureMethod["omitWords"])>0:
-                    ReducedFilter = [obj for obj in queryResult['filters'] if len(set(obj['qTerm']) & set(MeasureMethod["omitWords"]))==0]
+                    #ReducedFilter = [obj for obj in queryResult['filters'] if len(set(obj['qTerm']) & set(MeasureMethod["omitWords"]))==0]
+                    ReducedFilter = [obj for obj in queryResult['filters'] if len(set([obj.lower() for obj in obj['qTerm']]) & set([obj.lower() for obj in MeasureMethod["omitWords"]]))==0]
+                    
                 else:
                     ReducedFilter = queryResult['filters']
 

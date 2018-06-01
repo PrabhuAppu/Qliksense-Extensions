@@ -1,5 +1,5 @@
 import csv
-
+import re
 # For identifying the filters 
 import json
 from websocket import create_connection
@@ -9,6 +9,9 @@ class MyEncoder(JSONEncoder):
         def default(self, o):
             return o.__dict__
 
+def findWholeWord(w):
+    return re.compile(r'\b({0})\b'.format(w), flags=re.IGNORECASE).search
+            
 # Analysye Non Matching words and get the field values using search API
 
 def openApplication(ws, applicationID, requestID):
@@ -53,11 +56,12 @@ def getSearchAssociation(ws, searchTerm, requestID):
     return result['result']['qResult']['qSearchGroupArray']
     #print(result['result']['qResult']['qSearchGroupArray'][0])
 
-def get(nonMatchingwords): 
+def get(nonMatchingwords, appName, query): 
     ws = create_connection("ws://localhost:4848/app")
     #application = "C:\\Users\\359084\\Documents\\Qlik\\Sense\\Apps\\Executive Dashboard.qvf"
-    application = "D:\Qlik\Apps\Executive Dashboard.qvf"
+    #application = "D:\Qlik\Apps\Executive Dashboard.qvf"
     #application = "D:\Qlik\Apps\Consumer_Sales.qvf"
+    application = appName
     requestID = 1
     # Open the qliksense application
     openApplication(ws, application, requestID)
@@ -67,9 +71,9 @@ def get(nonMatchingwords):
 
     allFields = []
     allFieldsWithDef = []
-    file = "data\\Executive Dashboard.qvf\\fieldList.csv"
-    classfile = "data\\Executive Dashboard.qvf\\fieldClassification.csv"
-    dimensionDeffile = "data\\Executive Dashboard.qvf\\masterDimDefList.csv"
+    file = "data\\"+appName+"\\fieldList.csv"
+    classfile = "data\\"+appName+"\\fieldClassification.csv"
+    dimensionDeffile = "data\\"+appName+"\\masterDimDefList.csv"
 
     # Get Field to Field Def from Master Dimension 
     with open(dimensionDeffile, newline='') as csvfile:
@@ -94,7 +98,7 @@ def get(nonMatchingwords):
         requestID+=1
         allKeyWords = [obj for obj in [obj['qItems'] for obj in associations]]# if obj['qTotalNumberOfMatches']==1]
         
-        singleMatch = [{"Name" : obj[0]['qIdentifier'], "qTerm" : [obj[0]['qItemMatches'][0]['qText']]} for obj in allKeyWords if obj[0]['qTotalNumberOfMatches']==1]
+        singleMatch = [{"Name" : obj[0]['qIdentifier'], "qTerm" : [obj[0]['qItemMatches'][0]['qText']]} for obj in allKeyWords if obj[0]['qTotalNumberOfMatches']==1 and obj[0]['qItemMatches'][0]['qText'].lower()==term.lower()]
 
         for match in singleMatch:
             if match['Name'] not in allFields:
@@ -142,9 +146,18 @@ def get(nonMatchingwords):
                     for item in filters:
                         if item['actualName'] == qItem['actualName']:
                             item['qTerm'] = item['qTerm'] + qItem['qTerm']
-
+    
+    filterFinal = [obj for obj in filters if obj['Name'].lower() in query.lower()]
+    
+    filterFinal3 = []
+    for dim in filterFinal:
+        filterFinal2 = [obj['Name'] for obj in filterFinal if findWholeWord(dim['Name'].lower())(obj['Name'].lower()) and dim['Name'].lower() != obj['Name'].lower() ]
+        if len(filterFinal2)==0 or len(filterFinal)==1:
+            filterFinal3.extend([obj for obj in filterFinal if obj['Name']==dim['Name']])
+            
+    print([obj['Name'] for obj in filterFinal3])
     print('#########- Filters -##########')
-    print([{"Name":obj['Name'], "Value":obj['qTerm']} for obj in filters])
+    print([{"Name":obj['Name'], "Value":obj['qTerm']} for obj in filterFinal3])
     print('#########- ------- -##########')
     '''
     response = {
@@ -155,5 +168,5 @@ def get(nonMatchingwords):
         "measureKeyword": [{"aggrFunc":"SUM", "measureField":obj['name']} for obj in measure]
     }
     '''
-    return filters
+    return filterFinal3
 

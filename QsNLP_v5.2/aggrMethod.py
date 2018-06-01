@@ -32,15 +32,15 @@ def identifyField(row, query, cube):
     
     if row[0]=="1" :
         for dim in [{"tagword": obj['actword'], "Name":obj['name']} for obj in cube['dimension']]+[{"tagword": obj['actword'], "Name":obj['Name']} for obj in cube['measure']]:
-            for d in dim["tagword"]:
+            for d in [' '.join(dim["tagword"])]:
                 if row[1].replace("<FIELD>", d).lower() in query.lower():
                     return {
                         "CountMeasure": True,
-                        "exp": row[2].replace("<FIELD>", dim["Name"]),
-                        "omitWords": [],
+                        "exp": row[2].replace("<FIELD>", '['+dim["Name"]+']'),
+                        "omitWords": ['number of','no of','noof','numberof'],
                         "dimensionLimit": {},
                         'measure':{
-                            'expression':row[2].replace("<FIELD>", dim["Name"]),
+                            'expression':row[2].replace("<FIELD>", '['+dim["Name"]+']'),
                             'actword': dim["tagword"],
                             'name': dim["Name"],
                             'calcDimensionLabel': 0,

@@ -79,7 +79,7 @@ def createChartsPropeties(cubeList, query):
                 "totalWords": len(dataDimWords)+len(dataMeasWords)
             })
     
-    FilteredList = [obj for obj in chartList if len(set(obj['tags'][0]) & set(obj['tags'][1]))==0 ]
+    FilteredList = [obj for obj in chartList]# if len(set(obj['tags'][0]) & set(obj['tags'][1]))==0 ]
 
     FilteredList.sort(key=lambda x:x['totalWords'], reverse=True)
 

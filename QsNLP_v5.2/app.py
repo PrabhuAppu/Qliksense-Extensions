@@ -1,7 +1,7 @@
 import GetMatchingFields
 import ClassifyField
 import filters
-import aggrMethod
+#import aggrMethod
 import combinations
 import qlikViz
 
@@ -14,17 +14,17 @@ app = Flask(__name__)
 CORS(app)
 
 def getChart(query):
-    
+    appName = "Executive Dashboard.qvf"
     data = GetMatchingFields.Get(query)
-    classData = ClassifyField.doClassify(data['result'], 0.5)
+    classData = ClassifyField.doClassify(data['result'], 0.5, appName, query)
     
     if len(classData)==0:
-        classData = ClassifyField.doClassify(data['result'], 0.75)
+        classData = ClassifyField.doClassify(data['result'], 0.75, appName, query)
 
     if len(classData)==0:
-        classData = ClassifyField.doClassify(data['result'], 0.5)
+        classData = ClassifyField.doClassify(data['result'], 0.5, appName, query)
 
-    filter = filters.get(data['nonMatchingwords'])  
+    filter = filters.get(data['nonMatchingwords'], appName, query)  
 
     
 
@@ -38,9 +38,11 @@ def getChart(query):
     }
 
     #print([obj['name'] for obj in classData["measure"]])
-    #print('##############################') 
+    print(result)
+    print('##############################') 
 
     cube = combinations.buildChartCombination(result, query)
+    print(cube)
     ch = qlikViz.createChartsPropeties(cube, query)
     
     return ch
