@@ -1,0 +1,178 @@
+Month	WeekNameValue	full_name	Reason	Count	Hours
+Apr 2015	1.00	Kaviraj, Subramanian	Average Working Hour Day	4	24.12
+Apr 2015	1.00	Leni, Balakrishnan	Status Call	1	10.11
+Apr 2015	1.00	Leni, Balakrishnan	Average Working Hour Day	3	6.01
+Apr 2015	1.00	Nivethitha, Padmanaban	Onsite Holiday	1	10.25
+Apr 2015	1.00	Nivethitha, Padmanaban	Status Call	1	10.11
+Apr 2015	1.00	Nivethitha, Padmanaban	Average Working Hour Day	2	9.11
+Apr 2015	1.00	Prabhu, Appu	Average Working Hour Day	4	16.17
+Apr 2015	1.00	Prasath, Palani	KT Session	1	12.02
+Apr 2015	1.00	Prasath, Palani	Average Working Hour Day	3	18.29
+Apr 2015	1.00	Simson Devadoss, Anbalagan	Onsite Holiday	1	12.02
+Apr 2015	1.00	Simson Devadoss, Anbalagan	Average Working Hour Day	3	18.29
+Apr 2015	2.00	Kaviraj, Subramanian	Status Call	1	11.09
+Apr 2015	2.00	Kaviraj, Subramanian	Average Working Hour Day	6	32.78
+Apr 2015	2.00	Leni, Balakrishnan	KT Session	1	10.04
+Apr 2015	2.00	Leni, Balakrishnan	Status Call	1	11.24
+Apr 2015	2.00	Leni, Balakrishnan	Average Working Hour Day	5	26.61
+Apr 2015	2.00	Nivethitha, Padmanaban	Onsite Holiday	1	10.06
+Apr 2015	2.00	Nivethitha, Padmanaban	Average Working Hour Day	6	9.10
+Apr 2015	2.00	Prabhu, Appu	Onsite Holiday	1	11.00
+Apr 2015	2.00	Prabhu, Appu	Average Working Hour Day	6	0.00
+Apr 2015	2.00	Prasath, Palani	Critical Project Delivery	1	10.37
+Apr 2015	2.00	Prasath, Palani	KT Session	1	12.56
+Apr 2015	2.00	Prasath, Palani	Status Call	1	11.03
+Apr 2015	2.00	Prasath, Palani	Average Working Hour Day	4	17.28
+Apr 2015	2.00	Simson Devadoss, Anbalagan	KT Session	1	11.03
+Apr 2015	2.00	Simson Devadoss, Anbalagan	Onsite Holiday	1	10.37
+Apr 2015	2.00	Simson Devadoss, Anbalagan	Status Call	1	12.56
+Apr 2015	2.00	Simson Devadoss, Anbalagan	Average Working Hour Day	4	17.28
+Apr 2015	3.00	Kaviraj, Subramanian	Status Call	1	10.35
+Apr 2015	3.00	Kaviraj, Subramanian	Average Working Hour Day	6	17.57
+Apr 2015	3.00	Leni, Balakrishnan	Critical Project Delivery	2	22.57
+Apr 2015	3.00	Leni, Balakrishnan	Average Working Hour Day	5	9.16
+Apr 2015	3.00	Nivethitha, Padmanaban	Onsite Holiday	3	32.82
+Apr 2015	3.00	Nivethitha, Padmanaban	Average Working Hour Day	4	8.44
+Apr 2015	3.00	Prabhu, Appu	KT Session	3	35.73
+Apr 2015	3.00	Prabhu, Appu	Onsite Holiday	1	11.17
+Apr 2015	3.00	Prabhu, Appu	Status Call	2	24.72
+Apr 2015	3.00	Prabhu, Appu	Average Working Hour Day	1	0.00
+Apr 2015	3.00	Prasath, Palani	Critical Project Delivery	1	11.09
+Apr 2015	3.00	Prasath, Palani	Onsite Holiday	1	10.54
+Apr 2015	3.00	Prasath, Palani	Average Working Hour Day	5	17.92
+Apr 2015	3.00	Simson Devadoss, Anbalagan	Onsite Holiday	1	11.09
+Apr 2015	3.00	Simson Devadoss, Anbalagan	Status Call	1	10.54
+Apr 2015	3.00	Simson Devadoss, Anbalagan	Average Working Hour Day	5	17.92
+Apr 2015	4.00	Kaviraj, Subramanian	Onsite Holiday	1	11.17
+Apr 2015	4.00	Kaviraj, Subramanian	Average Working Hour Day	6	36.88
+Apr 2015	4.00	Leni, Balakrishnan	KT Session	1	10.09
+Apr 2015	4.00	Leni, Balakrishnan	Status Call	1	10.15
+Apr 2015	4.00	Leni, Balakrishnan	Average Working Hour Day	5	26.48
+Apr 2015	4.00	Nivethitha, Padmanaban	Onsite Holiday	1	10.09
+Apr 2015	4.00	Nivethitha, Padmanaban	Status Call	1	10.15
+Apr 2015	4.00	Nivethitha, Padmanaban	Average Working Hour Day	5	26.53
+Apr 2015	4.00	Prabhu, Appu	KT Session	1	17.42
+Apr 2015	4.00	Prabhu, Appu	Onsite Holiday	3	39.35
+Apr 2015	4.00	Prabhu, Appu	Status Call	1	12.00
+Apr 2015	4.00	Prabhu, Appu	Average Working Hour Day	2	0.00
+Apr 2015	4.00	Prasath, Palani	KT Session	1	11.17
+Apr 2015	4.00	Prasath, Palani	Average Working Hour Day	6	36.88
+Apr 2015	4.00	Simson Devadoss, Anbalagan	KT Session	1	12.07
+Apr 2015	4.00	Simson Devadoss, Anbalagan	Status Call	3	36.02
+Apr 2015	4.00	Simson Devadoss, Anbalagan	Average Working Hour Day	3	9.49
+Apr 2015	5.00	Kaviraj, Subramanian	Average Working Hour Day	5	34.23
+Apr 2015	5.00	Leni, Balakrishnan	Critical Project Delivery	1	11.13
+Apr 2015	5.00	Leni, Balakrishnan	Status Call	1	10.04
+Apr 2015	5.00	Leni, Balakrishnan	Average Working Hour Day	3	16.22
+Apr 2015	5.00	Nivethitha, Padmanaban	Onsite Holiday	1	10.19
+Apr 2015	5.00	Nivethitha, Padmanaban	Status Call	1	11.14
+Apr 2015	5.00	Nivethitha, Padmanaban	Average Working Hour Day	3	17.54
+Apr 2015	5.00	Prabhu, Appu	KT Session	1	10.03
+Apr 2015	5.00	Prabhu, Appu	Onsite Holiday	1	14.48
+Apr 2015	5.00	Prabhu, Appu	Average Working Hour Day	3	9.96
+Apr 2015	5.00	Prasath, Palani	Average Working Hour Day	5	34.23
+Apr 2015	5.00	Simson Devadoss, Anbalagan	Status Call	1	10.29
+Apr 2015	5.00	Simson Devadoss, Anbalagan	Average Working Hour Day	4	8.51
+May 2015	1.00	Kaviraj, Subramanian	Average Working Hour Day	2	0.00
+May 2015	1.00	Leni, Balakrishnan	Average Working Hour Day	2	0.00
+May 2015	1.00	Nivethitha, Padmanaban	Average Working Hour Day	2	0.00
+May 2015	1.00	Prabhu, Appu	Average Working Hour Day	2	0.00
+May 2015	1.00	Prasath, Palani	Average Working Hour Day	2	0.00
+May 2015	1.00	Simson Devadoss, Anbalagan	Average Working Hour Day	2	0.00
+May 2015	2.00	Kaviraj, Subramanian	Average Working Hour Day	7	44.04
+May 2015	2.00	Leni, Balakrishnan	Critical Project Delivery	1	11.28
+May 2015	2.00	Leni, Balakrishnan	KT Session	1	10.04
+May 2015	2.00	Leni, Balakrishnan	Status Call	1	11.32
+May 2015	2.00	Leni, Balakrishnan	Average Working Hour Day	4	4.02
+May 2015	2.00	Nivethitha, Padmanaban	Critical Project Delivery	1	11.36
+May 2015	2.00	Nivethitha, Padmanaban	KT Session	1	10.18
+May 2015	2.00	Nivethitha, Padmanaban	Status Call	1	10.08
+May 2015	2.00	Nivethitha, Padmanaban	Average Working Hour Day	4	9.09
+May 2015	2.00	Prabhu, Appu	KT Session	1	11.19
+May 2015	2.00	Prabhu, Appu	Average Working Hour Day	6	35.71
+May 2015	2.00	Prasath, Palani	Average Working Hour Day	7	44.04
+May 2015	2.00	Simson Devadoss, Anbalagan	Critical Project Delivery	1	10.44
+May 2015	2.00	Simson Devadoss, Anbalagan	Average Working Hour Day	6	17.66
+May 2015	3.00	Kaviraj, Subramanian	Status Call	1	10.37
+May 2015	3.00	Kaviraj, Subramanian	Average Working Hour Day	6	33.97
+May 2015	3.00	Leni, Balakrishnan	KT Session	1	10.13
+May 2015	3.00	Leni, Balakrishnan	Status Call	2	20.11
+May 2015	3.00	Leni, Balakrishnan	Average Working Hour Day	4	18.12
+May 2015	3.00	Nivethitha, Padmanaban	Critical Project Delivery	1	12.40
+May 2015	3.00	Nivethitha, Padmanaban	KT Session	1	10.19
+May 2015	3.00	Nivethitha, Padmanaban	Status Call	1	10.06
+May 2015	3.00	Nivethitha, Padmanaban	Average Working Hour Day	4	18.16
+May 2015	3.00	Prabhu, Appu	Critical Project Delivery	1	11.05
+May 2015	3.00	Prabhu, Appu	Onsite Holiday	2	24.25
+May 2015	3.00	Prabhu, Appu	Average Working Hour Day	4	5.51
+May 2015	3.00	Prasath, Palani	Onsite Holiday	2	20.40
+May 2015	3.00	Prasath, Palani	Status Call	1	10.08
+May 2015	3.00	Prasath, Palani	Average Working Hour Day	4	18.00
+May 2015	3.00	Simson Devadoss, Anbalagan	Critical Project Delivery	1	10.02
+May 2015	3.00	Simson Devadoss, Anbalagan	Onsite Holiday	1	10.40
+May 2015	3.00	Simson Devadoss, Anbalagan	Status Call	2	20.59
+May 2015	3.00	Simson Devadoss, Anbalagan	Average Working Hour Day	3	9.20
+May 2015	4.00	Kaviraj, Subramanian	Average Working Hour Day	7	42.60
+May 2015	4.00	Leni, Balakrishnan	Status Call	2	21.38
+May 2015	4.00	Leni, Balakrishnan	Average Working Hour Day	5	26.67
+May 2015	4.00	Nivethitha, Padmanaban	KT Session	1	10.18
+May 2015	4.00	Nivethitha, Padmanaban	Average Working Hour Day	6	9.57
+May 2015	4.00	Prabhu, Appu	Critical Project Delivery	1	10.36
+May 2015	4.00	Prabhu, Appu	Status Call	1	14.29
+May 2015	4.00	Prabhu, Appu	Average Working Hour Day	5	25.25
+May 2015	4.00	Prasath, Palani	Critical Project Delivery	1	11.21
+May 2015	4.00	Prasath, Palani	Onsite Holiday	1	10.17
+May 2015	4.00	Prasath, Palani	Average Working Hour Day	5	26.67
+May 2015	4.00	Simson Devadoss, Anbalagan	KT Session	1	13.23
+May 2015	4.00	Simson Devadoss, Anbalagan	Status Call	1	13.07
+May 2015	4.00	Simson Devadoss, Anbalagan	Average Working Hour Day	5	26.92
+May 2015	5.00	Kaviraj, Subramanian	Status Call	1	10.14
+May 2015	5.00	Kaviraj, Subramanian	Average Working Hour Day	6	43.35
+May 2015	5.00	Leni, Balakrishnan	KT Session	1	11.12
+May 2015	5.00	Leni, Balakrishnan	Average Working Hour Day	6	28.79
+May 2015	5.00	Nivethitha, Padmanaban	Status Call	1	11.33
+May 2015	5.00	Nivethitha, Padmanaban	Average Working Hour Day	6	33.55
+May 2015	5.00	Prabhu, Appu	KT Session	1	12.39
+May 2015	5.00	Prabhu, Appu	Average Working Hour Day	6	33.93
+May 2015	5.00	Prasath, Palani	Average Working Hour Day	7	40.10
+May 2015	5.00	Simson Devadoss, Anbalagan	Critical Project Delivery	1	10.50
+May 2015	5.00	Simson Devadoss, Anbalagan	KT Session	1	11.52
+May 2015	5.00	Simson Devadoss, Anbalagan	Onsite Holiday	1	10.49
+May 2015	5.00	Simson Devadoss, Anbalagan	Status Call	1	10.01
+May 2015	5.00	Simson Devadoss, Anbalagan	Average Working Hour Day	3	8.52
+May 2015	6.00	Kaviraj, Subramanian	Average Working Hour Day	1	0.00
+May 2015	6.00	Leni, Balakrishnan	Average Working Hour Day	1	0.00
+May 2015	6.00	Nivethitha, Padmanaban	Average Working Hour Day	1	0.00
+May 2015	6.00	Prabhu, Appu	Average Working Hour Day	1	2.42
+May 2015	6.00	Prasath, Palani	Average Working Hour Day	1	2.42
+May 2015	6.00	Simson Devadoss, Anbalagan	Average Working Hour Day	1	0.00
+Jun 2015	1.00	Kaviraj, Subramanian	Average Working Hour Day	6	41.49
+Jun 2015	1.00	Leni, Balakrishnan	Average Working Hour Day	6	47.63
+Jun 2015	1.00	Nivethitha, Padmanaban	Average Working Hour Day	6	40.35
+Jun 2015	1.00	Prabhu, Appu	Average Working Hour Day	6	64.21
+Jun 2015	1.00	Prasath, Palani	Average Working Hour Day	6	64.21
+Jun 2015	1.00	Simson Devadoss, Anbalagan	Average Working Hour Day	6	18.79
+Jun 2015	2.00	Kaviraj, Subramanian	Average Working Hour Day	7	47.38
+Jun 2015	2.00	Leni, Balakrishnan	Average Working Hour Day	7	37.67
+Jun 2015	2.00	Nivethitha, Padmanaban	Average Working Hour Day	7	47.48
+Jun 2015	2.00	Prabhu, Appu	Average Working Hour Day	7	48.24
+Jun 2015	2.00	Prasath, Palani	Average Working Hour Day	7	48.24
+Jun 2015	2.00	Simson Devadoss, Anbalagan	Average Working Hour Day	7	50.29
+Jun 2015	3.00	Kaviraj, Subramanian	Average Working Hour Day	7	53.49
+Jun 2015	3.00	Leni, Balakrishnan	Average Working Hour Day	7	51.39
+Jun 2015	3.00	Nivethitha, Padmanaban	Average Working Hour Day	7	49.55
+Jun 2015	3.00	Prabhu, Appu	Average Working Hour Day	7	57.17
+Jun 2015	3.00	Prasath, Palani	Average Working Hour Day	7	49.78
+Jun 2015	3.00	Simson Devadoss, Anbalagan	Average Working Hour Day	7	62.75
+Jun 2015	4.00	Kaviraj, Subramanian	Average Working Hour Day	7	44.77
+Jun 2015	4.00	Leni, Balakrishnan	Average Working Hour Day	7	45.65
+Jun 2015	4.00	Nivethitha, Padmanaban	Average Working Hour Day	7	46.83
+Jun 2015	4.00	Prabhu, Appu	Average Working Hour Day	7	55.00
+Jun 2015	4.00	Prasath, Palani	Average Working Hour Day	7	46.83
+Jun 2015	4.00	Simson Devadoss, Anbalagan	Average Working Hour Day	7	62.46
+Jun 2015	5.00	Kaviraj, Subramanian	Average Working Hour Day	3	17.46
+Jun 2015	5.00	Leni, Balakrishnan	Average Working Hour Day	3	15.74
+Jun 2015	5.00	Nivethitha, Padmanaban	Average Working Hour Day	3	18.10
+Jun 2015	5.00	Prabhu, Appu	Average Working Hour Day	3	18.38
+Jun 2015	5.00	Prasath, Palani	Average Working Hour Day	3	18.10
+Jun 2015	5.00	Simson Devadoss, Anbalagan	Average Working Hour Day	3	21.59
