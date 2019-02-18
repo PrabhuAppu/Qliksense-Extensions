@@ -1,0 +1,8 @@
+{
+	"name" : "AAAD3 Tree CHart",
+	"description" : "Tree chart",
+	"icon" : "bar-chart-vertical",
+	"type" : "visualization",
+	"version": "1.0",
+	"author": "Prabhu Appu"
+}

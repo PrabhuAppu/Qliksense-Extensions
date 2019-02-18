@@ -1,0 +1,89 @@
+{
+    "name": "Airlines",
+    "parents": [
+        {
+            "name": "Aviation",
+            "isparent": true,
+            "parents": [
+                {
+                    "name": "A",
+                    "isparent": true
+                },
+                {
+                    "name": "B",
+                    "isparent": true
+                },
+                {
+                    "name": "C",
+                    "isparent": true
+                },
+                {
+                    "name": "D",
+                    "isparent": true
+                }
+            ]
+        },
+        {
+            "name": "Transparent_companies",
+            "isparent": true
+        },
+        {
+            "name": "Transport_operators",
+            "isparent": true
+        }
+    ],
+    "children": [
+        {
+            "name": "Airline_alliances",
+            "isparent": false,
+            "children": [
+                {
+                    "name": "Airline_alliances",
+                    "isparent": false
+                },
+                {
+                    "name": "Airlines_by_continent",
+                    "isparent": false
+                },
+                {
+                    "name": "Airlines_by_type",
+                    "isparent": false
+                },
+                {
+                    "name": "Defunct_airlines",
+                    "isparent": false
+                }
+            ]
+        },
+        {
+            "name": "Airlines_by_continent",
+            "isparent": false,
+            "children": [
+                {
+                    "name": "Airline_alliances",
+                    "isparent": false
+                },
+                {
+                    "name": "Airlines_by_continent",
+                    "isparent": false
+                },
+                {
+                    "name": "Airlines_by_type",
+                    "isparent": false
+                },
+                {
+                    "name": "Defunct_airlines",
+                    "isparent": false
+                }
+            ]
+        },
+        {
+            "name": "Airlines_by_type",
+            "isparent": false
+        },
+        {
+            "name": "Defunct_airlines",
+            "isparent": false
+        }
+    ]
+}
